@@ -1,0 +1,137 @@
+/************Global****************/
+* {
+	/* #2 #font #faces */
+	font-family: 'Arial', sans-serif;
+	padding:0px;
+	margin:0px;
+}
+
+body {
+	/* #2 #colorful #background */
+	background-color: #F5F5F5;
+}
+
+
+button {
+	/* #2 #colourful #plusfive */
+	background-color: #CDDC39;
+	color: black;
+	/* #2 #font capital #letters */
+	text-transform: uppercase;
+}
+
+
+
+strong a{
+	text-transform:uppercase;
+}
+
+
+/************App bar***************/
+h1 {
+	/* #2 #colourful #app-bar */
+	background-color: #3F51B5;
+	color: white;
+}
+
+
+/**********Channels list***********/
+h2 {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+}
+
+li{
+    padding:16px;
+    font-size:16px;
+    height:48px;
+    box-sizing:border-box;  
+    border-bottom:1px solid #F5F5F5;
+}
+
+ul .selected{
+    border-left:4px solid #3F51B5;
+}
+
+
+li img{
+    vertical-align:middle;
+}
+
+
+/************Tab bar***************/
+#tab-bar {
+	/* #2 #colourful #plusfive */
+	background-color: white;
+	color: black;
+	/* #2 #font capital #letters */
+	text-transform: uppercase;
+}
+
+#tab-bar button{
+    background-color:white;
+    border:0px;
+    font-size:13px;
+    width:33%;
+    height:72px;
+    padding:16px;
+    
+}
+
+#tab-bar button img{
+    display:block;
+    margin:auto;
+    margin-bottom:4px;
+}
+
+#tab-bar .selected{
+    border-bottom:4px solid #3F51B5; 
+}
+
+/***********Messages***************/
+p {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    padding:16px;
+}
+
+strong {
+    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+    text-transform: uppercase;
+}
+
+h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+
+em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+
+.message{
+    width:80%;
+    margin:8px 0px 0px;
+    margin-left:2.5%;
+}
+
+.message h3{
+    color:black;
+    margin:0px;
+    padding:0px;
+}
+
+.message h3 a{
+    color:black;
+}
+
+.message p{
+    margin-top:16px;
+    margin-bottom:16px;
+}
+
+.own-message{
+    margin-left:17.5%;
+}
